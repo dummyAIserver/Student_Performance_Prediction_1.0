@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import r2_score
 
 # Load dataset
-df = pd.read_csv("C:\\Users\\Simran\\Desktop\\new-student-prediction-project\\student_performance_dataset.csv")
+df = pd.read_csv("student_performance_dataset.csv")
 
 # Features and target
 X = df[["attendance", "assignment_score", "internal_marks"]]
